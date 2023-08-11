@@ -1,0 +1,1 @@
+docker build -t steamcmd ../src && docker run --rm --name steam -it steamcmd
